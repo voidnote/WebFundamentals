@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    height: 785px;
+    width: 970px;
+    background-color: #154f79;
+}
+#top{
+
+}
+#header{
+
+}
+#logo{
+    height: 100px;
+    margin: 0px 0px 0px 10px;
+}
+#searchbartext{
+    margin: 5px 0px 0px 385px;
+    color: white;
+}
+/*These next selectors work on the navbar*/
+#navbarlocation{
+    height: 46px;
+    width: 970px;
+}
+#navbar{
+    margin: 0px 0px 0px 70px;
+    width: 830px;
+    box-shadow: 3px 3px 5px black;
+}
+#navbar ul{
+    list-style-type: none;
+    background-color: #3279b0;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+#navbar li{
+    display: inline;
+    margin: 0px 0px 0px 25px;
+}
+#navbar a{
+    padding: 8px;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+/*This next section contains our main content*/
+#main{
+    display: block;
+    height: 320px;
+    width: 970px;
+}
+#resources{
+    height: 200px;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+    margin: 21px 0px 0px 50px;
+    text-align: center;
+    list-style-position: inside;
+}
+#resources li{
+    margin: 10px 0px 0px 0px;
+}
+#history{
+    height: 110px;
+    width: 625px;
+    color: white;
+    text-align: center;
+    margin: 10px 0px 0px 10px;
+}
+#quote{
+    height: 110px;
+    width: 625px;
+    color: #f7d104;
+    text-align: center;
+}
+#quote ul{
+    list-style-type: none;
+}
+#quote li{
+    margin: 0px 0px 10px 0px;
+}
+#middle{
+    display: block;
+    height: 235px;
+    width: 970px;
+    background-color: white;
+}
+#middle li{
+    color: dodgerblue;
+}
+#gettingStarted{
+    height: 235px;
+    width: 440px;
+    margin: 0px 0px 0px 75px;
+    text-align: center;
+}
+#applications{
+    height: 235px;
+    width: 440px;
+    margin: 0px 0px 0px 5px;
+    text-align: center;
+}
+#bottom{
+    display: block;
+    height: 70px;
+    width: 970px;
+    background: linear-gradient(#154f79 ,#1c72af);
+}
+#footer{
+    margin: 60px 0px 0px 200px;
+}
+#footer ul{
+    list-style-type: none;
+}
+#footer li{
+    display: inline;
+    color: #65a3d4;
+    margin: 0px 0px 0px 24px;
+}
+#legal{
+    text-align: center;
+    color: #65a3d4;
+    margin: 10px 0px 0px 0px;
+}
+
+.column{
+    display: inline-block;
+    vertical-align: top;
+}
+.bullets{
+    margin: 0px 0px 0px 0px;
+    height: 100;
+    width: 400;
+}
+.separator{
+    height: 4px;
+    width: 400px;
+    background-color: #68a6d8;
+    margin: 10px 0px 0px 0px;
+}
+.larger{
+    font-size: 14pt;
+}
+.yellow{
+    color: #f7d104;
+}
+.white{
+    color: white;
+}
+
+/*These next selectors describe the searchbar*/
+#searchbar{
+    height: 60px;
+    width: 290px;
+    background-color: #444444;
+    margin: 0px 0px 0px 295px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+}
+#tfnewsearch{
+    display: inline;
+    padding:20px;
+    margin: 0px 0px 0px 0px;
+}
+.tftextinput2{
+    margin: 15px 0px 0px 0px;
+    vertical-align: top;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#666;
+    border:1px solid #0076a3; border-right:0px;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+}
+.tfbutton2 {
+    margin: 15px 0px 0px 0px;
+    padding: 5px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 1px #0076a3; border-right:0px;
+    background: #0095cd;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+    background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+}
+
+/* Fixes submit button height problem in Firefox */
+.tfbutton2::-moz-focus-inner {
+    border: 0;
+}
+.tfclear{
+    clear:both;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+	"use strict";
+
+function slots(quarters, payoff){
+	for (var i = 1; i <= quarters; i++){
+		var winChance = Math.trunc(Math.random()*100);
+			console.log(winChance);
+			if (winChance == 7){
+				var win = Math.trunc(Math.random()*50);
+				quarters += win;
+				console.log("Congrats, you won "+win+" more quarters!");
+				console.log("You have "+quarters+" quarters in total.");
+				if (quarters >= payoff){
+					console.log("Congrats on hitting your payoff!");
+					return(quarters);
+				}
+			} else {
+				console.log("sorry, you lost this pull");
+			}
+	}
+	console.log("Please come back with more quarters and play again!");
+}
+
+slots(10, 40);
+
+/*
+function slots(quarters){
+	for (var i = 1; i <= quarters; i++){
+		var winChance = Math.trunc(Math.random()*100);
+			console.log(winChance);
+			if (winChance == 7){
+				var win = Math.trunc(Math.random()*50);
+				quarters += win;
+				console.log("Congrats, you won "+win+" more quarters!");
+				console.log("You have "+quarters+" quarters in total.");
+				return(quarters);
+			} else {
+				console.log("sorry, you lost this pull");
+			}
+	}
+	console.log("Please come back with more quarters and play again!");
+}
+
+slots(10);
+*/
+</script>
+</head>
+<body>
+
+</body>
+</html>

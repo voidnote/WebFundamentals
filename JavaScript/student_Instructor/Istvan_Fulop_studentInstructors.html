@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		"use strict";
+
+//for loop
+//print the first and last name of the i item in the object
+
+var users = {
+ 'Students': [ 
+     {first_name:  'Michael', last_name : 'Jordan'},
+     {first_name : 'John', last_name : 'Rosales'},
+     {first_name : 'Mark', last_name : 'Guillen'},
+     {first_name : 'KB', last_name : 'Tonel'}
+  ],
+ 'Instructors': [
+     {first_name : 'Michael', last_name : 'Choi'},
+     {first_name : 'Martin', last_name : 'Puryear'}
+  ]
+ }
+
+for (var key in users){
+	console.log(key);
+	var temp = 1;
+	for (var k in users[key]){
+			var sum = users[key][k].first_name.length+users[key][k].last_name.length;
+			console.log(temp+" - "+users[key][k].first_name.toUpperCase()+" "+users[key][k].last_name.toUpperCase()+" - "+sum);
+			temp++;
+	}
+
+}
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

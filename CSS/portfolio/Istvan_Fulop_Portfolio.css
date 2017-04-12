@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#wrapper{
+    height: 1500px;
+    width: 970px;
+    padding: 20px;
+}
+#background{
+    background: radial-gradient(#6f5964  ,#1b0b0f  );
+}
+#titlebar{
+    background: linear-gradient(#f1f1f1 ,#fefefe);
+    height: 50px;
+    width: 970px;
+}
+#titlebar h1{
+    font-family: "Comic Sans MS", sans-serif;
+    margin: 0px 0px 0px 20px;
+    vertical-align: top;
+}
+#titlebar h2{
+    font-size: 20px;
+    margin: 15px 0px 0px 420px;
+}
+.column{
+    display: inline-block;
+    vertical-align: top;
+}
+.columntitle{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0px 0px 20px;
+}
+p{
+    padding: 5px;
+}
+.textheader{
+    margin: 0px 0px 0px 15px;
+    height: 280px;
+    width: 455px;
+    font-size: 18px;
+    background: linear-gradient(#ffffff ,#d3c3d1);
+}
+.pull-left{
+    float:left;
+}
+.pull-right{
+    float: right;
+}
+#mainheader{
+    width: 970px;
+}
+.headshot{
+    height: 300px;
+    border: 5px solid gray;
+    display: inline-block;
+    margin: 20px 0px 0px 15px;
+}
+.label{
+    height: 30px;
+    width: 100%;
+    display: inline-block;
+    background: linear-gradient(#b1b0b4 ,#878593, #b1b0b4);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.labelheader{
+    height: 30px;
+    width: 455px;
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px 0px 15px;
+}
+.textblock{
+    height: 200px;
+    width: 300px;
+    background: linear-gradient(to right, #ffffff ,#d3c3d1);
+    margin: -4px 0px 0px 0px;
+}
+#projectsection{
+    width: 970px;
+
+}
+.project{
+    width: 300px;
+    height: 600px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 0px 0px 15px;
+}
+.techicons{
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(to right, #ffffff ,#d3c3d1);
+}
+#footer{
+    width: 970px;
+    background: linear-gradient(#fefefe, #f1f1f1);
+}
+.contactinfo{
+    width: 970px;
+    height: 40px;
+    text-align: center;
+}
+.iconsmall {
+    height: 30px;
+}
+.iconproj {
+    width: 300px;
+}
+.button {
+    height: 30px;
+    width: 70px;
+    background-color: #407d61;
+    border-radius: 10px;
+    font-size: 12px;
+    margin: 4px 0px 0px 102px;
+    color: white;
+}
+.link{
+    text-decoration: underline;
+    display: inline-block;
+    vertical-align: top;
+    margin: 3px 0px;
+}
+.techlogo{
+    height: 45px;
+    margin: 5px 0px 0px 5px;
+}

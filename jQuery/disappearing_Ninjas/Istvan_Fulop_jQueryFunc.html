@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="jQueryFunc.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".vision").click(function(){
+                    var alertMessage = "You have awesome vision!";
+                    alert(alertMessage);
+                });
+                $("p").click(function(){
+                    $(this).slideUp();
+                });
+//                    $( function() {
+//                        $( "#dialog" ).dialog();
+//                    });
+                $( ".hider" ).click(function() {
+                    $( "span:first-child" ).hide( "fast", function() {
+                        $( this ).next().hide( "fast", arguments.callee );
+                    });
+                });
+                $( ".shower" ).click(function() {
+                    $( "span" ).show();
+                });
+                $(".ninja").click(function(){
+                    $(this).css("opacity", "0");
+                });
+                $(".ninjaset").click(function(){
+                    $(".ninja").css("opacity", "1");
+                });
+                $('.ninjacat').click(function(){
+                    $(this).attr({
+                        "src": $(this).attr('alt-src'),'alt-src' :  $(this).attr('src')
+                    })
+                });
+            });
+        </script>
+
+    </head>
+ 
+    <body>
+        <button class="vision">Click me!</button>
+        <div class="clickme">
+        <p>Don't click me please!</p>
+        <p>Me neither, I want to live!</p>
+        <p>Oh the humanity!!! Are we just playthings to you?</p>
+        </div>
+        <div class="hideme">
+            <button class="hider box">PACMAN HUNGRY!!!</button>
+            <button class="shower box">Reset</button>
+            <div class="text">
+                <img class="pacman" src="2000px-Pac_man.svg.png">
+                <div class="textible">
+                    <span>Development</span> <span>is</span> <span>a</span>
+                    <span>very</span> <span>serious</span> <span>pursuit</span>
+                    <span>requiring</span> <span>focus...</span>
+                </div>
+            </div>
+        </div>
+        <div class="ninjaMe">
+            <div class="ninjas1">
+                <img class="ninja" src="leo.jpg">
+                <img class="ninja" src="mikey.jpg">
+                <img class="ninja" src="raff.jpg">
+                <img class="ninja" src="donny.jpg">
+            </div>
+            <div class="ninjas2">
+                <img class="ninja" src="raff.jpg">
+                <img class="ninja" src="donny.jpg">
+                <img class="ninja" src="leo.jpg">
+                <img class="ninja" src="mikey.jpg">
+            </div>
+            <button class="ninjaset box">GO NINJA AGAIN</button>
+        </div>
+        <div class="ninjacatMe">
+            <img class="ninjacat" src="ninja0.png" alt-src='cat0.png'>
+            <img class="ninjacat" src="ninja1.png" alt-src='cat1.png'>
+            <img class="ninjacat" src="ninja2.png" alt-src='cat2.png'>
+            <img class="ninjacat" src="ninja3.png" alt-src='cat3.png'>
+            <img class="ninjacat" src="ninja4.png" alt-src='cat4.png'>
+        </div>
+        <!--<div id="dialog" title="Basic dialog">
+            <h2>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</h2>
+        </div>-->
+    </body>
+</html>

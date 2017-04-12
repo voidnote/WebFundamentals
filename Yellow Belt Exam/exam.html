@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Accordance-Bible Software</title>
+        <link rel="stylesheet" type="text/css" href="exam.css">
+        <!-- JAVASCRIPT to clear search text when the field is clicked -->
+        <script type="text/javascript">
+        window.onload = function(){ 
+            //Get submit button
+            var submitbutton = document.getElementById("tfq");
+            //Add listener to submit button
+            if(submitbutton.addEventListener){
+                submitbutton.addEventListener("click", function() {
+                    if (submitbutton.value == 'Search'){//Customize this text string to whatever you want
+                        submitbutton.value = '';
+                    }
+                });
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <img class="menuicon" src="menu_icon1.png" alt="Accordance logo">
+                <ul>
+                    <li>Store</li>
+                    <li>Blog</li>
+                    <li>Forums</li>
+                    <li>Support</li>
+                    <li>Contact</li>
+                </ul>
+                <div class="lighter">
+                    <form method="get" action="http://www.accordancebible.com">
+                        <span><input type="text" class="search rounded" placeholder="Search..."></span>
+                    </form>
+                </div>
+            </div>
+            <div class="main">
+                <img class="mainimage" src="main.png" alt="product offer">
+                <ul>
+                    <li>Accordance 10</li>
+                    <li>/</li>
+                    <li>Collections</li>
+                    <li>/</li>
+                    <li>Accordance Advantage</li>
+                    <li>/</li>
+                    <li>Mobile</li>
+                    <li>/</li>
+                    <li>Windows</li>
+                    <li>/</li>
+                    <li>Learn</li>
+            </div>
+            <div class="mid">
+                <div class="discover">
+                    <h1>Discover the Accordance Advantage  |</h1>
+                    <div class="midbutton">
+                        <h2>Browse the Store</h2>
+                        <h3>>></h3>
+                    </div>
+                </div>
+                <div class="sales">
+                    <div class="step">
+                        <div class="stepheader">
+                            <img class="stepicon" src="content_icon1.png" alt="video icon">
+                            <h4>Video Preview</h4>
+                        </div>
+                        <p>Check out the new introductory video for Accordance 10.</p>
+                        <img class="stepimage" src="watch_now.png" alt="video">
+                        <button class="stepbutton">Watch Now</button>
+                    </div>
+                    <div class="step">
+                        <div class="stepheader">
+                            <img class="stepicon" src="content_icon2.png" alt="compass icon">
+                            <h4>Tour of 10</h4>
+                        </div>
+                        <p>Learn about some of the powerful and exciting Bible study features that Accordance 10 offers.</p>
+                        <img class="stepimage" src="take_the_tour.png" alt="video">
+                        <button class="stepbutton">Take the Tour</button>
+                    </div>
+                    <div class="step">
+                        <div class="stepheader">
+                            <img class="stepicon" src="content_icon3.png" alt="key icon">
+                            <h4>Free Trial</h4>
+                        </div>
+                        <p>Download a free demo version of Accordance 10 with sample texts and tools for you to try out.</p>
+                        <img class="stepimage" src="start_your_trial.png" alt="video">
+                        <button class="stepbutton">Start Your Trial</button>
+                    </div>
+                    <div class="step">
+                        <div class="stepheader">
+                            <img class="stepicon" src="content_icon4.png" alt="cart icon">
+                            <h4>Ready to Buy</h4>
+                        </div>
+                        <p>Create a collection and Discover teh Accordance Advantage today.</p>
+                        <img class="stepimage" src="find_products.png" alt="video">
+                        <button class="stepbutton">Find Products</button>
+                    </div>
+                </div>
+            </div>
+            <div class="links">
+                <div class="column">
+                    <h5>About</h5>
+                    <button class="separator"></button>
+                    <ul>
+                        <li>Accordance Advantage</li>
+                        <li>Videos</li>
+                        <li>Feature Tour</li>
+                        <li>Endorsements</li>
+                        <li>Reviews</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h5>Platform</h5>
+                    <button class="separator"></button>
+                    <ul>
+                        <li>Accordance for Mac</li>
+                        <li>Accordance for iOS</li>
+                        <li>Accordance for Windows</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h5>Store</h5>
+                    <button class="separator"></button>
+                    <ul>
+                        <li>Products</li>
+                        <li>Upgrades</li>
+                        <li>Purchase Options</li>
+                        <li>New Releases</li>
+                        <li>Current Specials</li>
+                        <li>Gift Card</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h5>Support</h5>
+                    <button class="separator"></button>
+                    <ul>
+                        <li>Sources of Support</li>
+                        <li>Podcasts</li>
+                        <li>Help</li>
+                        <li>Training Seminars</li>
+                        <li>Articles</li>
+                        <li>Downloads</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h5>Community</h5>
+                    <button class="separator"></button>
+                    <ul>
+                        <li>Forums</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                        <li>Promote Accordance</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h5>OakTree</h5>
+                    <button class="separator"></button>
+                    <ul>
+                        <li>Company</li>
+                        <li>Contact</li>
+                        <li>Press</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom">
+                <button class="wider" class="separator"></button>
+                <p>Toll Free (877)339-5855 | <span class="email">orders@accordancebible.com</span> | @2012 OakTree Software.</p>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+

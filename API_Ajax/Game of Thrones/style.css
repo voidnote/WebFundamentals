@@ -1,0 +1,33 @@
+*{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.wrapper{
+    height: 1500px;
+    width: 900;
+    margin: 0px 0px 0px 0px;
+    padding: 1px 0px 0px 0px;
+    background-image: url(dark_embroidery.png);
+}
+.houses {
+    margin: 50px 0px 0px 20px;
+}
+
+.houses img{
+    height: 200px;
+    margin: 0px 0px 0px 20px;
+}
+.stats{
+    height: 400px;
+    width: 400;
+    margin: 80px 0px 0px 300px;
+    color: ghostwhite;
+    font-size: 30px;
+}
+.stats ul {
+    list-style-type: none;
+    
+}
+.stats li {
+    margin: 5px 0px 0px 0px;
+}
